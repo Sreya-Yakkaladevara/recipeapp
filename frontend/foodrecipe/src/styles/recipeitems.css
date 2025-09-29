@@ -1,0 +1,55 @@
+.link{
+    text-decoration: none;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 30px;
+    align-items: center;
+    gap: 30px;
+    
+}.recipeitems{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 3px grey;
+    border-radius: 5px;
+}
+.image img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+.content {
+    background-color: rgb(217, 244, 244);
+}
+.title{ 
+    margin: -20px;
+    text-align: center;
+}
+.innercontent{
+    padding : 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.symbol{
+    cursor: pointer;
+    font-size: 20px;
+}
+.delete{
+    cursor: pointer;
+    font-size: 20px;
+    color: red;
+}
+.edit{
+   cursor: pointer;
+    font-size: 20px; 
+}
+.action{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}

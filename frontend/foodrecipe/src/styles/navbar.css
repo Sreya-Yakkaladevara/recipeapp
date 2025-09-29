@@ -1,0 +1,36 @@
+.navbar {
+  height: 50px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background-color: rgb(149, 238, 149);
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 0 8px;
+}
+
+
+.right  a{
+    text-decoration: none;
+    color: white;
+}
+
+.right {
+    display: flex;
+    gap:20px;
+    align-items: center;
+    margin-right: 20px;
+    list-style: none;
+}
+.right :hover{
+    color: rgb(5, 11, 15);
+    font-weight: bold;
+}
+.right p{
+  cursor: pointer;
+}
+
+
